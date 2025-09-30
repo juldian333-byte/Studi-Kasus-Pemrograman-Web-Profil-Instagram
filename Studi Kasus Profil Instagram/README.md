@@ -11,7 +11,8 @@ Studi kasus ini berisi dua implementasi halaman profil Instagram:
 ├── index-bootstrap.html     
 ├── index-tailwind.html      
 ├── assets/
-│   └── img/                 
+│   └── img/
+|   └── style.css           
 └── README.md               
 
 ```
