@@ -1,6 +1,6 @@
 # Tugas: Profil Instagram (Bootstrap & Tailwind)
 
-Studi kasus ini berisi dua implementasi halaman profil Instagram yang:
+Studi kasus ini berisi dua implementasi halaman profil Instagram:
 1. **Bootstrap 5** (`profil-instagram-bootstrap.html`)
 2. **Tailwind CSS + DaisyUI** (`profil-instagram-tailwind.html`)
 
