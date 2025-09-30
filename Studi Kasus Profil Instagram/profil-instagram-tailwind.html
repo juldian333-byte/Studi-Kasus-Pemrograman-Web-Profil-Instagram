@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Instagram Profile - Tailwind + DaisyUI</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@5/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-gray-100">
+
+  <!-- Header -->
+  <div class="navbar bg-white border-b mb-6">
+    <div class="flex-1">
+      <a class="btn btn-ghost normal-case text-xl font-bold flex items-center gap-2">
+        <!-- SVG logo Instagram -->
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-6 h-6" viewBox="0 0 448 512">
+          <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 
+            114.9s51.3 114.9 114.9 114.9 
+            114.9-51.3 114.9-114.9S287.6 
+            141 224.1 141zm0 189.6c-41.2 
+            0-74.7-33.5-74.7-74.7s33.5-74.7 
+            74.7-74.7 74.7 33.5 74.7 
+            74.7-33.5 74.7-74.7 
+            74.7zm146.4-194.3c0 14.9-12 
+            26.9-26.9 26.9s-26.9-12-26.9-26.9 
+            12-26.9 26.9-26.9 26.9 12 
+            26.9 26.9z"/>
+        </svg>
+        Instagram
+      </a>
+    </div>
+  </div>
+
+  <!-- Profile -->
+  <div class="max-w-4xl mx-auto p-6">
+    <div class="flex flex-col md:flex-row items-center md:items-start mb-6">
+      <div class="flex-shrink-0">
+        <img src="assets/profil.jpeg" alt="Profile" class="w-32 h-32 rounded-full object-cover">
+      </div>
+      <div class="md:ml-6 mt-4 md:mt-0">
+        <h3 class="text-2xl font-bold">ktnj_cl</h3>
+        <p class="mt-1"><span class="font-semibold">0</span> kiriman &nbsp; <span class="font-semibold">327</span> pengikut &nbsp; <span class="font-semibold">326</span> diikuti</p>
+        <p class="font-semibold mt-2">Juldi 🍉</p>
+        <p class="text-gray-600">It's actually those simple acts that say a lot</p>
+        <!-- Tombol -->
+        <div class="flex gap-2 mt-3 flex-wrap">
+          <button class="btn btn-primary order-1 md:order-0">Follow</button>
+          <button class="btn btn-outline order-0 md:order-1">Edit Profile</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Feed -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 mb-6">
+      <img src="assets/images1.jpeg" class="w-full h-64 object-cover">
+      <img src="assets/images2.jpeg" class="w-full h-64 object-cover">
+      <img src="assets/images3.jpeg" class="w-full h-64 object-cover">
+      <img src="assets/images4.jpeg" class="w-full h-64 object-cover">
+      <img src="assets/images5.jpeg" class="w-full h-64 object-cover">
+      <img src="assets/images6.jpeg" class="w-full h-64 object-cover">
+      <img src="assets/images7.jpeg" class="w-full h-64 object-cover">
+      <img src="assets/images8.jpeg" class="w-full h-64 object-cover">
+      <img src="assets/images9.jpeg" class="w-full h-64 object-cover">
+      <img src="assets/images10.jpeg" class="w-full h-64 object-cover">
+      <img src="assets/images11.jpeg" class="w-full h-64 object-cover">
+      <img src="assets/images12.jpeg" class="w-full h-64 object-cover">
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-white border-t py-3">
+    <div class="text-center text-gray-500 text-sm">
+      &copy; 2025 Instagram Clone with Tailwind + DaisyUI
+    </div>
+  </footer>
+
+</body>
+</html>
+```
